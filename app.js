@@ -1,4 +1,3 @@
-test
 
 // var answers = 0;
 
@@ -7,7 +6,6 @@ test
 // console.log( 'User name is: ' + userName );
 
 // alert( 'Sweet, thank you ' + userName + '! Let\'s continue.' );
-
 // var toughQuestion = prompt('This first question is tough, are you ready to continue?').toLowerCase();
 // console.log( toughQuestion + ' ' + userName + ' is ready to continue!' );
 
