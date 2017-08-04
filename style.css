@@ -1,9 +1,10 @@
 body {
+     background-blend-mode: luminosity;   
     background-position: center;
     background-image: url(https://cdn.bulbagarden.net/upload/e/e8/700Sylveon.png);
     background-attachment: fixed;
     background-color: lightpink;
-    opacity: 1.0;
+    opacity: 0.75;
    
 }
 
@@ -19,19 +20,17 @@ h1 {
 }
 
 h2 {
-     background-color: grey;
+    
     opacity: 0.5; 
-    color: white;
+    color: black;
     font-size: 45px;
     font: center;
     text-align: center;
 }
 
 p {
-   background-color: grey;
   opacity: 0.5; 
-  font: center;
-  color: white; 
+  color: black; 
   /* box-shadow: 5px 5px 5px #808080; */
   padding: 5px;
 }
@@ -42,19 +41,23 @@ li {
 }
 
 ol {
-    color: lightseagreen;
-    /* background-color: grey;
-    opacity: 0.5; */
-    list-style-type: none;
+    color: black;
+     /* background-color: grey; */
+    opacity: 0.5;
+     /* list-style-type: none;  */
     margin-left: auto;
-    margin-right: auto;
-    display: inline-block center;
-    text-align: center;
+    margin-right: auto; 
+     display: inline-block center; 
     font-size: 25px;
-}
+    list-style-position: inside;
+} 
 
 .one {
     font-size: 40px;
     font: bold;
     
+}
+
+section {
+    text-align: center;
 }
